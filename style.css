@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+body {
+    background: #0f0d0df5;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    border: 2px solid #743a13;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    margin-left: 15px;
+    font-size: 25px;
+    color: rgb(241,3, 82);
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 0.3s ease;
+    /* border-bottom: 5px solid pink; */
+}
+
+.home {
+    /* width: 80%; */
+    width: calc(80% - 20px);
+    background: #0f0d0df5;
+    min-height: 100vh;
+
+    margin: 200px auto;
+    /* margin-top: 10%; */
+    /* margin-top: 10%; */
+
+    /* todo: like min height  */
+    /* height: 750px; */
+    /* height: 750px; */
+
+    display: flex;    /* dont change */
+    padding: 80px 0 0;  /* padding don't change padding is prefect */
+    /* align-items: center; */
+
+    /* gap: 7en; */
+    /* padding: 30px 12% 0; */
+    /* margin-top: 50px; */
+
+    /* margin-right: auto !important;
+    margin-left: auto !important; */
+
+    /* margin-left: 5rem;
+    margin-right: 3rem; */
+    position: relative; 
+
+    
+}
+
+
+
+.home-info {
+    /* align-items: center; */
+    /* width: 100%; */
+    /* scroll-margin-right: ; */
+    /* todo: chek it */
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative; 
+    
+}
+
+ .home-info .vertical-line {
+/* .lines .vertical-line { */
+    position: absolute;
+     /* Adjust thickness of the vertical line */
+    /* background-color: #bb2a2a; Adjust color of the vertical line */
+    animation: fadein 1s ease-in-out; /* Add animation */
+    /* transform: scaleY(1); */
+}
+
+
+/* todo : add line code proprav way ====================  requird  */
+/* .lines {
+  
+} */
+
+.up-line {
+    /* margin-left: 150px; */
+    /* top: 23rem; */
+    top: 3rem;
+    left: 30px; /* Adjust left position of the up line */
+    /* height: 17%; */
+    height: 31%;
+    bottom: 20px;
+    /* bottom: 20px; */
+    width: 5px;
+    /* todo main width */
+    /* width: 8.33333333%; github page */  
+    /* color: red; */
+    /* background: linear-gradient(transparent, #05ee24 50%);height: 40%; */
+
+    background: linear-gradient(transparent, #7C72FF 30%);
+    /* height: 72%; */
+    /* background: linear-gradient(rgb(63, 185, 80), rgb(46, 160, 67), transparent); */
+
+}
+
+.down-line {
+    /* margin-left: 150px; */
+    bottom: 0;
+    left: 30px; /* Adjust left position of the down line */
+    height: 50% !important;
+    width: 5px;
+
+    background: linear-gradient(transparent,#7C72FF 30%,#2DA44E 80%, #3FB950);
+
+
+}
+
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.coder {
+    position: absolute;
+    top: 45%;
+
+
+    /* left: 14px;  */
+    /* left: 14px;  */
+    /* Adjust the left position of the word "coder" */
+    transform: translateY(-50%);
+    font-size: 14px; /* Adjust font size as needed */
+    color: #555; /* Adjust color of the word "coder" */
+}
+.coder1 {
+    top: 45%;
+    font-size: 20px;
+}
+
+
+.home-info .coder {
+    padding-left: 150px;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+/* right side  */
+.home-h1 {
+    /* font-size: 1.2em; */
+    width: 30;
+    /* h0-mktg */
+    font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-feature-settings: unset;
+    line-height: 80px !important;
+    font-weight: 600 !important;
+    letter-spacing: -0.01em !important;
+
+    /* font-size: 94px; */
+    font-size: 9em;   /*   experiment */
+    /* font-size: 2em; */
+    
+    /* margin: 0.67em 0; */
+    /* h0-mktg  end */
+
+    /* z-2 */
+    z-index: 2 !important;
+
+    /* z-2  end*/
+
+}
